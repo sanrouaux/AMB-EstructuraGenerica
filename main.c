@@ -26,6 +26,16 @@ int main()
     eGen_mostrarListadoConBorrados(listadoGenerico,CANTIDAD);
     getchar();
 
+    printf( "\n \t damos de baja un elemento");
+    eGen_baja(listadoGenerico, CANTIDAD, 1);
+    eGen_mostrarListado(listadoGenerico, CANTIDAD);
+    getchar();
+
+    printf( "\n \t modificamos un elemento\n");
+    eGen_modificacion(listadoGenerico, CANTIDAD, 2);
+    eGen_mostrarListado(listadoGenerico, CANTIDAD);
+    getchar();
+
 
     return 0;
 }

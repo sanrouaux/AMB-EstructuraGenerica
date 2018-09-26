@@ -23,3 +23,5 @@ int eGen_baja(eGenerica[] ,int limite, int id);
 int eGen_modificacion(eGenerica[] ,int limite, int id);
 
 int eGen_ordenar(eGenerica[] ,int limite, int orden);
+
+int validaLargoCadena(char nombre[], int indice, int tamano);
